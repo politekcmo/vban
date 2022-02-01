@@ -23,9 +23,9 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 endif()
 
-option(WITH_ALSA       "Build vban with ALSA support"       ON)
-option(WITH_PULSEAUDIO "Build vban with PulseAudio support" ON)
-option(WITH_JACK       "Build vban with JACK support"       ON)
+option(WITH_ALSA       "Build vban with ALSA support"       OFF)
+option(WITH_PULSEAUDIO "Build vban with PulseAudio support" OFF)
+option(WITH_JACK       "Build vban with JACK support"       OFF)
 
 #set(CMAKE_VERBOSE_MAKEFILE ON)
 
